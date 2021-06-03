@@ -3,7 +3,7 @@ This repository contains all the script necesaries to build the pdb and psf file
 
 Mentor and author of modification_of_pdb_file.tcl https://github.com/jfaraudo
 
-The topology and parameter file belong to CHARMM repository
+The topology and parameter file belong to CHARMM repository https://www.charmm.org/
 
 # About VMDextension.tcl
    mainpage  VMD extension functions
