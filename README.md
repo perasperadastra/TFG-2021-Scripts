@@ -1,4 +1,4 @@
-# TFG-2021-Scripts
+# TFG 2021 Scripts
 This repository contains all the script necesaries to build the pdb and psf file from the atomsk output.
 
 Mentor and author of modification_of_pdb_file.tcl https://github.com/jfaraudo
