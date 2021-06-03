@@ -11,6 +11,9 @@ if value==3:
 	nam3=nam3+".xyz"
 #######################################################################################################
 def contadoratomos(name,csNumExtra=0,clNumExtra=0):
+	"""
+	Function that counts the atoms in our .xyz files.
+	"""
 	csNum=0+csNumExtra
 	clNum=0+clNumExtra
 	with open(name,"r") as file1:
@@ -23,6 +26,9 @@ def contadoratomos(name,csNumExtra=0,clNumExtra=0):
 	return csNum, clNum
 
 def neutral(name,csNumExtra=0,clNumExtra=0):
+	"""
+	Function that erase first Cs or Cl till the system is neutralized
+	"""
 	csNum,clNum=contadoratomos(name,csNumExtra,clNumExtra)
 	if csNum==clNum:
 		print(" \nWOOOWWWW!!!!!!!\n The total number of atoms are neutral in this merge!!!!!\n")
