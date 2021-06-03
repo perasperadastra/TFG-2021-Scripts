@@ -2,7 +2,7 @@
 This repository contains all the script necesaries to build the pdb and psf file from the atomsk output.
 
 # Building a pdb and psf from xyz file:
-0)Copy "editorname.py",step1.tcl","modification_of_pdbfile.tcl","segmentchange.py" and "VMDextensions.tcl" to the working directory.
+0) Copy "editorname.py",step1.tcl","modification_of_pdbfile.tcl","segmentchange.py" and "VMDextensions.tcl" to the working directory.
 
 1) First run the editorname.py file, you must insert the name of the file (without ".xyz") and it will change the name of the ions to be the same as the topology and parameter files.
 
