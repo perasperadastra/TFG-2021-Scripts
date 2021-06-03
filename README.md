@@ -5,7 +5,7 @@ Mentor and author of modification_of_pdb_file.tcl https://github.com/jfaraudo
 
 The topology and parameter file belong to CHARMM repository
 
-About VMDextension.tcl
+# About VMDextension.tcl
    mainpage  VMD extension functions
 
    A collection of TCL-VMD functions that support a number of
