@@ -1,8 +1,42 @@
 # TFG-2021-Scripts
 This repository contains all the script necesaries to build the pdb and psf file from the atomsk output.
 
+Mentor and author of modification_of_pdb_file.tcl https://github.com/jfaraudo
+
 The topology and parameter file belong to CHARMM repository
-The VMD
+
+About VMDextension.tcl
+   mainpage  VMD extension functions
+
+   A collection of TCL-VMD functions that support a number of
+   structural transformations and shortcuts for TCL-VMD programmers.
+   Features easy-to-remember semantics to
+
+    * Iterate a block of code over frames
+    * Iterate a block of code over trajectory files
+    * Compute the number and fraction of native contacts
+    * Compute distance matrices
+    * Compute root-mean-square alignments and related measures
+    * ...and more
+ 
+  Please refer to the <a href="modules.html">table of contents</a> for
+  the full feature list.
+
+  page download Get the code
+
+  Download the latest release from
+  https://github.com/tonigi/vmd_extensions/releases/latest . 
+
+  page license License
+
+  copyright 2010-2014 CNR and UPF
+  author  toni.giorgino  isib cnr it.
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version. 
+  You should have received a copy of the GNU General Public License along with this program. 
+  If not, see       <http://www.gnu.org/licenses/>.
 
 # Building a pdb from xyz file:
 0) Copy "editorname.py",step1.tcl","modification_of_pdbfile.tcl","segmentchange.py" and "VMDextensions.tcl" to the working directory.
